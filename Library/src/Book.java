@@ -16,10 +16,4 @@ public class Book {
     public  Author getAuthor(){
         return author;
     }
-    public void printBook(){
-        System.out.println("Title: " + getJudul());
-        System.out.println("ISBN: " + getISBN());
-        System.out.println("Author: " + author.getNama());
-        System.out.println("Biography: " + author.getDescription());
-    }
 }
